@@ -106,12 +106,13 @@ body {
     margin-top: -13%;
     background-color: #fff;
     width: 300px;
-    height: 150px;
+     height: 180px;
     padding: 20px;
     grid-column: 1;
     grid-row: 1;
     font-size: 1rem;
     font-weight: 400;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 .grid-item-1 h3 {
     font-size: 1.4rem;
@@ -121,21 +122,46 @@ body {
     background-color: #fff;
     margin-top: -13%;
     width: 300px;
-    height: 150px;
+    height: 180px;
     padding: 20px;
     grid-column: 2;
     grid-row: 1;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+.body-stats p {
+    font-size: 0.8rem;
+    font-weight: 600;
+     color: #3f3f42;
 }
 
+
+
 .grid-item-3 {
-    background-color: #7786e8;
+    background-color: #43adeb;
     width: 300px;
     margin-top: -13%;
-    height: 150px;
+     height: 180px;
     padding: 20px;
     grid-column: 3;
     grid-row: 1;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
+.grid-item-3 h3 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #fff;
+}
+.grid-item-4, .grid-item-5, .grid-item-6 {
+    background-color: #fff;
+    width: 300px;
+    margin-top: 13%;
+     height: 180px;
+    padding: 20px;
+    
+    
+}
+
+
 .industry {
     margin-top: 5%;
     margin-left: 38%;
@@ -204,6 +230,7 @@ body {
     margin-left:16%;
     background: linear-gradient(to right, #140c88, #c70bce);
     width: 70%;
+    height:20vh;
 
 }
 .email-subscription{
@@ -227,9 +254,9 @@ body {
     padding-left: 10px;
 
 }
-#submit{
+#subscribe{
     margin-top: 5%;
-    margin-left: -20%;
+    margin-left: -10%;
     margin-bottom: 5%;
     width: 100px;
     height: 40px;
@@ -239,18 +266,25 @@ body {
     font-size: 1rem;
     font-weight: 200;
 }
+
 .pricing-container{
     margin-top: 10%;
     margin-left: 35%;
 }
 .pricing-container h3{
-    margin-left: 10%;
-    font-size: 2rem;
+    margin-left: 2%;
+    font-size: 1.3rem;
     font-weight: 600;
+}
+.pricing-container p{
+    margin-left: -10%;
+    font-size: 0.8rem;
+    font-weight: 200;
+    color: #3f3f42;
 }
 
 .pricing-container span{
-    margin-left: -8%;
+    margin-left: -4%;
     font-size: 1rem;
     font-weight: 200;
     color: #3f3f42;
@@ -259,34 +293,84 @@ body {
     display: flex;
     
 }
-.pricing-card-1, .pricing-card-3{
+.pricing-card-1-price{
+    margin-top: 5%;
+    display: flex;
+}
+.pricing-card-1-price p{
+    font-size: 0.8rem;
+    color:#6fb7e0;
+    margin-top: 20%;
+}
+.pricing-card-1-price h2{
+    font-size: 2.0rem;
+    color:#6fb7e0
+}
+.pricing-card-1-price h3{
+    font-size: 0.8rem;
+    color:#6fb7e0
+}
+.pricing-card-1{
     width: 300px;
-    height: 400px;
+    height: 480px;
     background-color: #fff;
-    margin-left: 5%;
+    margin-left: 15%;
+    align-items: center;
     margin-top: 5%;
     padding: 20px;
-    border-radius: 5px;
    
+}
+.pricing-header{
+    margin-top: 5%;
+    margin-left: 10%;
+}
+.pricing-card p{
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+.pricing-card span{
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+.pricing-card-3{
+  width: 300px;
+    height: 400px;
+    background-color: #fff;
+    margin-left: 0%;
+    margin-top: 5%;
+    padding: 20px;
+    border-radius: 5px;  
 }
 .pricing-card-2{
     width: 300px;
-    height: 420px;
-    margin-top: -15%;
+    height: 500px;
     background-color: #07042b;
-    margin-left: 5%;
+    margin-left: 0%;
     margin-top: 5%;
     padding: 20px;
     color: #ffffff;
     border: solid 1px #376bb0;
     border-radius: 5px;
 }
+.pricing-card-2 p{
+    margin-top: 1%;
+  color: #ffffff;
+}
+.pricing-card-2 span{
+  color: #ffffff;
+}
 .offers img{
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
 }
 .pricing-card-2 h3{
-    font-size: 1.5rem;
+    font-size: 1.0rem;
+    font-weight: 600;
+}
+.pricing-card-2 h4{
+    margin-top: 14%;
+    margin-left: -5%;
+    font-size: 0.8rem;
     font-weight: 600;
 }
 
@@ -331,9 +415,9 @@ body {
     height: 400px;
 }
 #name{
-    margin-top: 5%;
-    margin-left: 5%;
-    width: 300px;
+    margin-top: 0%;
+   margin-left: 8%;
+    width: 350px;
     height: 40px;
     border-radius: 5px;
     border: none;
@@ -342,8 +426,8 @@ body {
 }
 #form-mail{
     margin-top: 5%;
-    margin-left: 5%;
-    width: 300px;
+    margin-left: 8%;
+    width: 350px;
     height: 40px;
     border-radius: 5px;
     border: none;
@@ -352,8 +436,8 @@ body {
 }
 #phone{
     margin-top: 5%;
-    margin-left: 5%;
-    width: 300px;
+    margin-left: 8%;
+    width: 350px;
     height: 40px;
     border-radius: 5px;
     border: none;
@@ -362,8 +446,8 @@ body {
 }
 #department{
     margin-top: 5%;
-    margin-left: 5%;
-    width: 300px;
+     margin-left: 8%;
+    width: 350px;
     height: 40px;
     border-radius: 5px;
     border: none;
@@ -372,8 +456,8 @@ body {
 }
 #time{
     margin-top: 5%;
-    margin-left: 5%;
-    width: 300px;
+    margin-left: 8%;
+    width: 350px;
     height: 40px;
     border-radius: 5px;
     border: none;
@@ -381,9 +465,9 @@ body {
     padding-left: 10px;
 }
 #submit{
-    margin-top: 5%;
-    margin-left: 5%;
-    width: 300px;
+    margin-top: 10%;
+    margin-left: 8%;
+    width: 200px;
     height: 40px;
     border-radius: 5px;
     border: none;
@@ -395,7 +479,7 @@ body {
 .appointment-content h2{
     margin-left: 20%;
     margin-top: 10%;
-    font-size: 1.5rem;
+    font-size: 1.0rem;
     font-weight: 600;
 }
 
@@ -405,4 +489,252 @@ body {
     gap: 40px;
     background-color: #fff;
     height: 15%;
+}
+.sign-out{
+   margin-left: 30%;
+   margin-top: 5%;
+}
+.sign-out h3{
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+.sign-out p{
+    font-size: 1rem;
+    font-weight: 200;
+    color: #3f3f42;
+    margin-top: 1%;
+}
+#contact-us{
+    margin-left: 40%;
+    width: 120px;
+    height: 40px;
+    border: none;
+    background-color: #3072c9;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 200;
+    border-radius: 5px;
+}
+.footer{
+  background-color: #ffffff;  
+}
+.footer-content{
+margin-top: 3%;
+margin-left: 15%;
+width:90%;
+height:40vh;
+
+}
+.footer-content-1,.footer-content-2 ,.footer-content-3 ,.footer-content-4, .footer-content-5{
+    margin-top:3%;
+    margin-left: 5%;
+}
+.footer-content-1 h3{
+    font-size: 1.0rem;
+    font-weight: 600;
+}
+.footer-content-2 h3{
+    font-size: 1.0rem;
+    font-weight: 600;
+}
+.footer-content-3 h3{
+    font-size: 1.0rem;
+    font-weight: 600;
+}
+.footer-content-4 h3{
+    font-size: 1.0rem;
+    font-weight: 600;
+}
+.footer-content-5 h3{
+    font-size: 1.0rem;
+    font-weight: 600;
+}
+.footer-content p{
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: #3f3f42;
+    margin-top: 16%;
+    gap: 10px;
+}
+.footer-bottom{
+    display: flex;
+    justify-content:space-around
+}
+.footer-img{
+display:flex;
+margin-left: -30%
+}
+.footer-img img{
+    width:30px;
+    margin-left:15px;
+    margin-top: 6%;
+}
+.footer-bottom p{
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #3f3f42;
+    margin-top: 6%;
+    gap: 10px;
+}
+
+/* Media query for screens less than 768px */
+@media (max-width: 767px) {
+  body {
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    width:min-content
+  }
+  .navbar-container{
+  justify-content: space-between;
+  padding: 20px;
+  width: 100%;
+  }
+  .navbar {
+    display: flex;
+    margin-left: 0;
+    padding: 0px;
+    gap: 20px;
+    width: max-content;
+  }
+
+  .nav-links {
+    margin-left: 0;
+    gap: 10px;
+  }
+
+  .nav-link {
+    margin-left: 0;
+  }
+
+  .signup-container {
+    margin-left: 0;
+  }
+
+  .intro-section-container {
+    margin-top: 34%;
+    margin-left: 1.5%;
+    text-align: center;
+  }
+
+  .intro-section-container h2 {
+    font-size: 2rem;
+  }
+
+  .intro-section-container p {
+    margin-top: 2%;
+    font-size: 1rem;
+  }
+
+  .body-stats {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 0;
+    margin-top: -3%;
+  }
+
+  .grid-item-1,
+  .grid-item-2,
+  .grid-item-3,
+  .grid-item-4,
+  .grid-item-5,
+  .grid-item-6 {
+    width: 40%;
+    margin-top: -5%;
+    margin-left: 20%;
+    grid-column: auto;
+    grid-row: auto;
+  }
+
+  .industry {
+    margin-left: 25%;
+  }
+
+  .people-container {
+    margin-left: 15%;
+    margin-right: 5%;
+    flex-direction: column;
+
+  }
+
+  .companies-container {
+    margin-left: 5%;
+    flex-direction: row;
+  }
+
+  .subscription-pallete {
+    margin-left: 5%;
+    width: 90%;
+  }
+
+  .pricing-container {
+    margin-left: 5%;
+    flex-direction: column;
+  }
+
+  .pricing-card {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+  }
+.pricing-card-1{
+  margin-left: 25%;
+}
+.pricing-card-2,.pricing-card-3{
+  margin-left: 28%;
+}
+.branches{
+  display: flex;
+  flex-direction: column;
+}
+.branches img{
+  margin-left: 30%;
+  width: 50%;
+  height: 30%;
+}
+  .appointment-content {
+    margin-left: 5%;
+    width: 90%;
+    flex-direction: column;
+  }
+
+  .appointment-content img {
+    margin-top: -16%;
+    margin-left: 0;
+    width: 100%;
+    height: auto;
+  }
+
+  .appointment-content form {
+    margin-left: 0;
+    margin-top: 5%;
+    width: 100%;
+    height: auto;
+  }
+
+  .footer-content {
+    margin-left: 5%;
+    width: 90%;
+  }
+  .sign-out p{
+  display:flex;
+  flex-direction: row;
+  }
+  .footer-img {
+    display: flex;
+    margin-left: 0;
+  }
+
+  .footer-img img {
+    width: 30px;
+    margin-left: 15px;
+    margin-top: 6%;
+  }
+
+  .footer-bottom {
+    flex-direction: row;
+  }
+
+  /* Add other styles for different elements as needed for smaller screens */
 }
